@@ -12,6 +12,7 @@ class BookCityPageState extends State<BookCityPage> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       theme: GlobalConfig.themeData,
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
         appBar: new AppBar(
           title: searchInput('书城', context),

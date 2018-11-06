@@ -93,6 +93,7 @@ class SearchPageState extends State<SearchPage> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       theme: GlobalConfig.themeData,
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
         appBar: new AppBar(
           title: searchInput(),

@@ -120,6 +120,7 @@ class IndexState extends State<Index> with TickerProviderStateMixin {
 
     return new MaterialApp(
       theme: GlobalConfig.themeData,
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
         body: _body,
         bottomNavigationBar: bottomNavigationBar,

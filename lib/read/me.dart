@@ -11,6 +11,7 @@ class MePageState extends State<MePage> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       theme: GlobalConfig.themeData,
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
         body: new Text("CategoryPage"),
       ),
